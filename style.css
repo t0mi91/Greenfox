@@ -1,0 +1,229 @@
+header{
+  background:#444;
+  display:flex;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  font-size:30px;
+  
+}
+
+a:hover{
+color:#69bf64;
+}
+
+.fix{
+  background:#444;
+  display:flex;
+  flex-direction:row;
+  font-family: 'Roboto', sans-serif;
+  justify-content:space-evenly;
+  font-size:30px;
+  width:100%;
+  position:fixed;
+  opacity:.9;
+  color:white;
+}
+
+.felirat{
+  text-decoration:none;
+  color:white;
+}
+
+
+.left{
+  font-family:'Abril Fatface', cursive;
+  color:#222;
+  margin-top:95px;
+}
+
+.name1{
+  position:absolute;
+  bottom:160px;
+  left:390px;
+  font-size: 30px;
+  color:#69bf64;
+}
+
+.name2{
+  position:absolute;
+  bottom:35px;
+  left:390px;
+  font-size:50px;
+  line-height: 50px;
+   width:20px;
+  padding:0;
+  
+}
+
+.name{
+  position:relative;
+  top: 50px;
+  right:10px;
+}
+
+blockquote{
+ text-align:left;
+ margin-left:0;
+ margin-right:auto;
+ width:45%;
+ background:#444;
+ height:auto;
+ padding:0px;
+ color:white;
+ font-size:40px;
+ font-family:'Abril Fatface', cursive;
+}
+
+.quote{
+  height:auto;
+  position:relative;
+  bottom:80px;
+  left:40px;
+  font-size:50px;
+  color:white;
+  
+}
+
+blockquote::before {
+  content:'”';
+  color:white;
+  font-family:'Abril Fatface', cursive;
+  font-size: 3em;
+    position:relative;
+    bottom:30px;
+}
+
+ul{
+  position:relative;
+  bottom: 200px;
+  margin-top:20px;
+  margin-left: auto;
+  margin-right: 150px;
+  width:40%;
+}
+
+li{ 
+ margin-top: 10px;
+ margin-left: auto;
+ margin-right: 0;
+ margin-bottom: 00px;
+ width:95%;
+}
+
+.caps{
+  color:#222;
+ font-family: 'Josefin Sans', sans-serif;
+  font-size:18px;
+ margin-top:25px;
+ margin-left:auto;
+ margin-right:100px;
+  margin-bottom:15px;
+ width:45%;
+  text-transform: capitalize;
+  position:relative;
+  bottom: 340px;
+}
+
+.subs{
+ margin-top:10px;
+ margin-left:auto;
+ margin-right:100px;
+ width:45%;
+ font-family:'Josefin Sans', cursive;
+ font-size:12px;
+  color:#222;
+  position:relative;
+  bottom:330px;
+}
+
+#notable{
+   color:#69bf64;
+ font-family: 'Josefin Sans', sans-serif;
+  font-size:18px;
+ margin-top:0px;
+ margin-left:auto;
+ margin-right:100px;
+ width:45%;
+  text-transform: uppercase;
+  position:relative;
+  bottom:330px;
+}
+
+.second{
+  height:auto;
+  position:relative;
+  bottom:80px;
+  left:40px;
+  font-size:50px;
+  color:white;
+  position:relative;
+  
+}
+
+.italic{
+ color:#222;
+ font-family: 'Merriweather', serif;
+ font-size:15px;
+ margin-top:0px;
+ margin-left:auto;
+ margin-right:100px;
+ width:45%;
+ text-transform: capitalize;
+ font-style:italic;
+  position:relative;
+  bottom:340px;
+}
+
+.small{
+ margin-top: 10px;
+ margin-left: auto;
+ margin-right: 100px;
+ font-family:'Josefin Sans', cursive;
+ font-size:12px;
+ color:#222;
+  position:relative;
+  bottom:150px;
+}
+
+.third{
+ height:auto;
+  position:relative;
+  bottom:80px;
+  left:40px;
+  font-size:50px;
+  color:white;
+  position:relative;
+}
+
+#formal{
+   color:#69bf64;
+ font-family: 'Josefin Sans', sans-serif;
+  font-size:18px;
+ margin-top:0px;
+ margin-left:auto;
+ margin-right:100px;
+ width:45%;
+  text-transform: uppercase;
+  position:relative;
+  bottom:350px;
+}
+
+.footer{
+ background:#69bf64;
+  display:flex;
+  font-family: 'Roboto', sans-serif;
+  justify-content:space-evenly;
+  font-family: 'Roboto', sans-serif;
+  font-size:30px;
+  text-decoration:none;
+  color:white;
+}
+
+.facebook, .twitter, .instagram{
+   text-decoration:none;
+  color:white;
+}
+
+b:hover{
+  color:#444;
+}
