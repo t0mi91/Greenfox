@@ -1,0 +1,11 @@
+a{
+    display:flex;
+    flex-direction:column;
+border:black solid 1px;
+width:20%;
+}
+
+a:hover{
+    background:darkorange;
+    color:white;
+}
